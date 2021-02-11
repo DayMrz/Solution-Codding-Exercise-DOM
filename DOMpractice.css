@@ -4,3 +4,11 @@
     text-decoration: line-through;
 }
 
+/* >>>>>>>>>>Coding Exercise 57: classList Practice*/
+.listPractice li {
+  background-color: #B10DC9;
+}
+
+.listPractice .highlight {
+  background-color: #7FDBFF;
+}

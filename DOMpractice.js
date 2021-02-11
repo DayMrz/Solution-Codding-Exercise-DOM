@@ -28,3 +28,21 @@ for (let i in colors) {
     spans[i].style.color = colors[i];
     console.log(i);
 }
+
+// >>>>>>>>Coding Exercise 57: classList Practice
+const listPractice = document.querySelector('.listPractice');
+const liE = listPractice.querySelectorAll('li');
+for (let li of liE) {
+    li.classList.toggle('highlight');
+}
+
+// >>>>>>>>Coding Exercise 58: Button Insanity Exercise
+for (let i = 0; i < 100; i++) {
+    const nButton = document.createElement('button');
+    console.dir(nButton)
+    nButton.innerText = 'Hey!';
+    const container1 = document.querySelector('#container1')
+    container1.appendChild(nButton);
+}
+
+

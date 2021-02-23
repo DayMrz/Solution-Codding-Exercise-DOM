@@ -44,6 +44,9 @@ for (let i = 0; i < 100; i++) {
     const container1 = document.querySelector('#container1')
     container1.appendChild(nButton);
 }
+
+// >>>>>>>>Coding Exercise 59: the events has been created in DOMpractice.html
+
 // >>>>>>>>Coding Exercise 60: Click Events Exercise
 const helloBtn = document.querySelector('#hello');
 const gByeBtn = document.querySelector('#goodbye');
@@ -53,5 +56,7 @@ helloBtn.addEventListener('click', () => {
 gByeBtn.addEventListener('click', () => {
     console.log('goodbye');
 })
+
+
 
 

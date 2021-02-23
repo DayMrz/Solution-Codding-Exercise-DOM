@@ -57,6 +57,18 @@ gByeBtn.addEventListener('click', () => {
     console.log('goodbye');
 })
 
+// >>>>>>>>Coding Exercise 62: Input Event Practice
+const input = document.querySelector('#username');
+const h1 = document.querySelector('#inputH1');
 
+input.addEventListener('input', function (e) {
+    // console.log('I am Working!')
+    if (!input.value) {
+        //The logical NOT (!) operator (logical complement, negation) takes truth to falsity and vice versa.As you know, the empty string "" is falsy value, the condition if (!this.value) basically just checks if the input is empty or not, if it is empty then this.value will be false and negating it i.e (using !) will make the condition if (!this.value) will return true and if block will run, or else the else block will run.
+        h1.innerText = 'Enter Your Username';
+    } else {
+        h1.innerText = `Welcome, ${input.value}`;
+    }
+})
 
 
